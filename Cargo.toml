@@ -1,0 +1,11 @@
+[package]
+name = "referee"
+version = "0.1.0"
+authors = ["Tiago Botelho <tiagonbotelho@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+lazy_static = "1.4.0"
+error-chain = "0.12.4"
+reqwest = { version = "0.10.9", features = ["blocking"]}
